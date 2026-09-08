@@ -1,4 +1,4 @@
-# Collage Maker
+# Framer
 
 A small, local-first photo collage editor for printable 4 × 6 photo paper.
 

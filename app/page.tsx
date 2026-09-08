@@ -218,7 +218,7 @@ export default function Home() {
       context.restore();
     }));
     const link = document.createElement('a');
-    link.download = `frame-four-${layout}-photo-collage.png`;
+    link.download = `framer-${layout}-photo-collage.png`;
     link.href = canvas.toDataURL('image/png'); link.click();
   };
 
@@ -227,7 +227,7 @@ export default function Home() {
       <header className="flex h-16 items-center justify-between border-b border-border bg-card px-5 md:px-8">
         <div className="flex items-center gap-3">
           <div className="grid size-8 place-items-center rounded-full bg-primary text-primary-foreground"><span className="font-serif text-lg italic">F</span></div>
-          <div><h1 className="font-serif text-xl leading-none tracking-tight">Frame Four</h1><p className="mt-1 text-xs text-muted-foreground">4 × 6 collage maker</p></div>
+          <div><h1 className="font-serif text-xl leading-none tracking-tight">Framer</h1><p className="mt-1 text-xs text-muted-foreground">4 × 6 collage maker</p></div>
         </div>
         <div className="hidden items-center gap-2 text-sm text-muted-foreground sm:flex"><Check className="size-4 text-accent-foreground" /> Photos stay on your device</div>
       </header>

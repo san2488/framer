@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Frame Four — 4 × 6 Collage Maker',
+  title: 'Framer — 4 × 6 Collage Maker',
   description: 'Arrange, crop, print, and download a two- or three-photo 4 × 6 collage.',
 };
 
